@@ -5,7 +5,7 @@ package minefield where
   precompileModules := true
 
 require terminus from git "https://github.com/nathanial/terminus" @ "v0.0.2"
-require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.1"
+require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.3"
 
 @[default_target]
 lean_lib Minefield where
