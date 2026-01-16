@@ -4,7 +4,7 @@ open Lake DSL
 package minefield where
   precompileModules := true
 
-require terminus from git "https://github.com/nathanial/terminus" @ "v0.0.13"
+require terminus from git "https://github.com/nathanial/terminus" @ "v0.0.14"
 require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.7"
 
 @[default_target]
