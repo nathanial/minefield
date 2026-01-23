@@ -274,8 +274,6 @@ test "Change difficulty" := do
   changed.grid.width ≡ 30
   changed.grid.height ≡ 16
 
-#generate_tests
-
 end Minefield.Tests
 
 def main : IO UInt32 := do
